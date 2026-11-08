@@ -31,7 +31,9 @@ function Header() {
           <div className="mx-1 h-5 w-px bg-[#eeeeee]" />
 
           <button
-            onClick={() => navigate("/cv.pdf")}
+            onClick={() => {
+              window.open(`${import.meta.env.BASE_URL}cv.pdf`, "_blank");
+            }}
             className="group flex h-9 items-center gap-2 rounded-lg border border-[#e5e5e5] bg-white px-3.5 text-[13px] font-medium text-[#262626] transition-all hover:border-[#d4d4d4] hover:bg-[#fafafa] active:scale-[0.98]"
           >
             <FileText size={15} className="text-[#737373]" />

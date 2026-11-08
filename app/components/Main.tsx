@@ -77,38 +77,6 @@ const projects = [
   },
 ];
 
-function Header() {
-  return (
-    <header className="sticky top-0 z-10 border-b border-neutral-200 bg-white/90 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-3xl items-center justify-between px-5">
-        <a href="/" className="text-base font-semibold tracking-tight">
-          Arkadina<span className="text-blue-600">.</span>
-        </a>
-
-        <div className="flex items-center gap-5">
-          <a
-            href="https://github.com/Arkadina"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="GitHub"
-            className="text-neutral-500 transition hover:text-neutral-900"
-          ></a>
-
-          <a
-            href="/cv.pdf"
-            target="_blank"
-            className="flex items-center gap-1.5 text-sm font-medium text-neutral-700 transition hover:text-blue-600"
-          >
-            <FileText size={15} />
-            CV
-            <ExternalLink size={12} />
-          </a>
-        </div>
-      </div>
-    </header>
-  );
-}
-
 function SectionTitle({ children }: { children: React.ReactNode }) {
   return <h2 className="mb-6 text-lg font-semibold tracking-tight text-neutral-900">{children}</h2>;
 }

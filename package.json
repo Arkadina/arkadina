@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "type": "module",
-  "homepage": "https://arkadina.github.io",
+  "homepage": "https://arkadina.github.io/arkadina/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
