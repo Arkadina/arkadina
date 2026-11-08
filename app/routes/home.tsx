@@ -3,7 +3,7 @@ import type { Route } from "./+types/home";
 import Main from "~/components/Main";
 
 export function meta({}: Route.MetaArgs) {
-  return [{ title: "Portfolio" }, { name: "description", content: "Welcome to React Router!" }];
+  return [{ title: "Portfolio" }, { name: "Portfolio", content: "Welcome to my Portfolio" }];
 }
 
 export default function Home() {

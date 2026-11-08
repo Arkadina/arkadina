@@ -47,25 +47,33 @@ const projects = [
     ],
   },
   {
-    name: "OpenX Browser",
+    name: "Cloudsky app",
+    description:
+      "A tool used to create, organize, and save passwords with end-to-end encryption. Frontend development using React JS.",
+    icon: Globe,
+    url: "https://cloudskyapp.com/en",
+    technologies: ["TypeScript", "JavaScript"],
+  },
+  {
+    name: "Sixcry",
+    description: " private end-to-end cryptography and data encryption service. Frontend development using React JS.",
+    icon: Globe,
+    url: "https://sixcry.com",
+    technologies: ["TypeScript", "JavaScript"],
+  },
+  {
+    name: "OpX Browser",
     description: "Open-source browser project. Frontend development using React Native.",
     icon: Globe,
-    url: "https://github.com",
+    url: "https://github.com/opxbrowser",
     technologies: ["React Native", "TypeScript", "JavaScript"],
   },
   {
     name: "Dental AI Research",
     description: "Machine learning and computer vision applied to dental radiology and CBCT imaging.",
     icon: BrainCircuit,
-    url: "https://github.com",
+    url: "#",
     technologies: ["Python", "PyTorch", "YOLO", "Scikit-learn", "SHAP"],
-  },
-  {
-    name: "Exam Extraction",
-    description: "Automated extraction and processing of exam questions from PDF documents.",
-    icon: FileCode2,
-    url: "https://github.com",
-    technologies: ["Python", "EasyOCR", "PyMuPDF", "OpenCV"],
   },
 ];
 
@@ -194,11 +202,12 @@ export default function Main() {
           <p className="mt-2 max-w-xl text-sm leading-7 text-neutral-500">
             I started programming as a hobby in 2018, when I used to play Minecraft with my best friend, Hubert Ryan. We
             worked on automating macros for Minecraft. Since then, I've been teaching myself how to code, continuously
-            learning and never looking back. Together, we founded several technology companies, including Cloudsky, Sixcry, and eventually Highus.
+            learning and never looking back. Together, we founded several technology companies, including Cloudsky,
+            Sixcry, and eventually Highus.
           </p>
           <p className="mt-2 max-w-xl text-sm leading-7 text-neutral-500">
-            I would call myself a software developer interested in building digital products, exploring artificial intelligence and solving
-            problems through technology.
+            I would call myself a software developer interested in building digital products, exploring artificial
+            intelligence and solving problems through technology.
           </p>
         </section>
         <TechStack />

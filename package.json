@@ -2,11 +2,11 @@
   "name": "portfolio",
   "private": true,
   "type": "module",
+  "homepage": "https://arkadina.github.io",
   "scripts": {
-    "build": "react-router build",
-    "dev": "react-router dev",
-    "start": "react-router-serve ./build/server/index.js",
-    "typecheck": "react-router typegen && tsc"
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "gh-pages -d build/client"
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",
